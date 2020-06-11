@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "src": "/(.*)",
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*"
+            },
+            "continue": true
+        },
+        {
+            "src": "/",
+            "dest": "/index.html"
+        }
+    ],
+    "regions": [
+        "arn1"
+    ]
+}

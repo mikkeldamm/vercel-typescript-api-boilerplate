@@ -1,0 +1,9 @@
+.now
+.vercel
+.env
+.DS_Store
+.dart_tool
+.vscode
+
+node_modules
+package-lock.json
